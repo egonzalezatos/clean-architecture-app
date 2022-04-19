@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchProject.Api\CleanArchProject.Api.csproj" />
+    <ProjectReference Include="..\CleanArchProject.Infrastructure\CleanArchProject.Infrastructure.csproj" />
+    <ProjectReference Include="..\CleanArchProject.IoC\CleanArchProject.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
